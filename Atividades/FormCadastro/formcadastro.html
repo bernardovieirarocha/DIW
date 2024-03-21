@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <header class="navbar">
+                <h1>Formulário de Cadastro:</h1>
+            </header>
+            <div class="form">
+                <form action="" method="get" id="loginForm">
+                    <div class="nome">
+                        <span>Nome:</span
+                        ><input
+                            type="text"
+                            name="nome"
+                            id="nome"
+                            placeholder="Seu Nome"
+                        />
+                    </div>
+                    <div class="email">
+                        <span>E-mail:</span
+                        ><input
+                            type="email"
+                            name="email"
+                            id="email"
+                            placeholder="Seu E-mail"
+                        />
+                    </div>
+                    <div class="senha">
+                        <span>Senha:</span
+                        ><input
+                            type="password"
+                            name="pwd"
+                            id="pwd"
+                            placeholder="Sua senha"
+                        />
+                    </div>
+                    <div class="sexo">
+                        <label for="sexo">Sexo:</label>
+                        <select name="sexo" id="sexo">
+                            <option value="Masculino">Masculino</option>
+                            <option value="Feminino">Feminino</option>
+                        </select>
+                    </div>
+                    <div class="interesses">
+                        <span>Interesses:</span>
+                        <input
+                            type="checkbox"
+                            name="Esporte"
+                            id="Esporte"
+                            value="Esporte"
+                        /><label for="Esporte"> Esporte</label>
+                        <input
+                            type="checkbox"
+                            name="Tecnologia"
+                            id="Tecnologia"
+                        /><label for="Tecnologia"> Tecnologia</label>
+                        <input
+                            type="checkbox"
+                            name="Viagem"
+                            id="Viagem"
+                        /><label for="Viagem"> Viagem</label>
+                    </div>
+                    <div class="comentarios">
+                        <span>Comentários:</span>
+                        <textarea
+                            name="comentarios"
+                            id="comentarios"
+                            cols="35"
+                            rows="3"
+                        ></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+        <div class="img">
+            <img src="" alt="" />
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,72 @@
+/* Definicoes gerais */
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+}
+
+body,
+ul,
+li,
+p {
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 120%;
+    text-align: center;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Header  */
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu li {
+    list-style: none;
+    margin-left: 10px;
+}
+.menu {
+    display: flex;
+}
+
+header {
+    background-color: grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Footer Flexbox */
+
+footer {
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+/* CSS Flebox 1 */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.flex > div {
+    flex: 1 1 200px;
+    margin: 10px;
+}

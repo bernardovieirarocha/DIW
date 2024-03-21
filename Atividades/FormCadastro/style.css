@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 100vw;
+    overflow: auto;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+}
+
+.form {
+    margin: 10px;
+    padding: 10px;
+    background-color: gainsboro;
+}
+form {
+    text-align: justify;
+}
+
+form > div {
+    margin: 10px;
+    padding: 1px;
+}
+
+button {
+    margin: 10px;
+    padding: 5px;
+    height: 50;
+    width: 50px;
+    font-size: 10pt;
+    overflow: auto;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input {
+    font-size: 10pt;
+    height: 18px;
+    margin-left: 10px;
+}
+
+label {
+    margin: 10px;
+    font-size: small;
+}
+
+textarea {
+    display: block;
+}
+img {
+    width: 800px;
+    height: 600px;
+}
+.img {
+    text-align: center;
+}
