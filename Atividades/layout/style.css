@@ -1,0 +1,196 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header  */
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu li {
+    list-style: none;
+    margin-left: 10px;
+}
+.menu {
+    display: flex;
+}
+
+header {
+    background-color: grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+
+/* main */
+
+.grid {
+    display: grid;
+    grid-column: 1fr / 1fr;
+    grid-gap: 20px;
+    max-width: 100%;
+    padding: 30px;
+}
+
+.banner img {
+    width: 100%;
+    height: 150px;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-start: 2;
+    max-width: 100%;
+    grid-gap: 20px;
+    align-items: center;
+    grid-gap: 10px;
+}
+.card {
+    align-content: center;
+    text-align: center;
+    border: 1px solid #000;
+}
+.card h3 {
+    text-align: center;
+}
+.card p {
+    text-align: justify;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+/* Footer */
+
+footer {
+    display: grid;
+    background-color: gray;
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 20px;
+}
+
+.menu-categorias ul {
+    list-style: none;
+}
+
+.menu-categorias li {
+    background-color: #000;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+}
+
+.menu-categorias a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#menuToggle {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+}
+/* Media Querieues  */
+
+@media screen and (max-width: 600px) {
+    .grid {
+        display: block;
+    }
+    section {
+        display: block;
+    }
+    .card {
+        border: 0px solid #000;
+    }
+
+    .banner {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .aside {
+        margin-top: 20px;
+    }
+    header {
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        padding: 15px;
+    }
+    header nav {
+        display: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    .menu {
+        display: flex;
+        position: fixed;
+        flex-wrap: wrap;
+        align-content: center;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 0%;
+        background-color: rgba(0, 0, 0, 0.7);
+        overflow: hidden;
+        transition: height 0.3s;
+    }
+    .menu li {
+        display: block;
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .menu li a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .menu-icon {
+        display: block;
+        color: white;
+        width: 50px;
+        height: inherit;
+        position: absolute;
+        top: 15px;
+        right: 30px;
+        z-index: 999;
+    }
+    .menu-icon i {
+        font-size: 1.7em;
+    }
+
+    #menuToggle:checked ~ label i:first-child {
+        display: none;
+    }
+    #menuToggle:checked ~ label i:nth-child(2) {
+        display: block;
+    }
+
+    #menuToggle:not(checked) ~ label i:first-child {
+        display: block;
+    }
+    #menuToggle:not(checked) ~ label i:nth-child(2) {
+        display: none;
+    }
+    #menuToggle:checked ~ .menu {
+        height: 100%;
+    }
+}
