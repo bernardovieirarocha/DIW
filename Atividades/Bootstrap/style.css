@@ -1,0 +1,9 @@
+.heading {
+    text-align: center;
+    font-size: 45px;
+    border-bottom: 2px solid #000;
+}
+
+strong {
+    color: #ffd700;
+}
