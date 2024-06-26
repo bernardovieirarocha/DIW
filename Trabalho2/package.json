@@ -1,0 +1,14 @@
+{
+  "name": "trabalho2",
+  "version": "1.0.0",
+  "description": "Tabalho 2 Final de DIW",
+  "main": "",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Bernardo Rocha",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}

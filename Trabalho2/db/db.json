@@ -1,0 +1,82 @@
+{
+    "conteudos": [
+        {
+            "id": 1,
+            "titulo": "C programming",
+            "descricao": "Uma introdução entenda o que é a linguagem C e seu funcionamento.",
+            "url_imagem": "https://i3.ytimg.com/vi/U3aXWizDbQ4/maxresdefault.jpg",
+            "url_conteudo": "https://www.youtube.com/watch?v=U3aXWizDbQ4"
+        },
+        {
+            "id": 2,
+            "titulo": "Aulas de Cálculo",
+            "descricao": "Aulas para ajudar no entendimento da matéria.",
+            "url_imagem": "https://i3.ytimg.com/vi/EJ5FGPZbKeo/maxresdefault.jpg",
+            "url_conteudo": "https://www.youtube.com/watch?v=EJ5FGPZbKeo"
+        },
+        {
+            "id": 3,
+            "titulo": "Clean Code",
+            "descricao": "Análise e entendimento do livro Clean Code e das boas práticas.",
+            "url_imagem": "https://i3.ytimg.com/vi/O5aWwBXPoh4/maxresdefault.jpg",
+            "url_conteudo": "https://www.youtube.com/watch?v=O5aWwBXPoh4"
+        },
+        {
+            "id": 4,
+            "titulo": "Programação na Prática",
+            "descricao": "Aulas para ajudar no entendimento da matéria.",
+            "url_imagem": "./assets/img/codewars.png",
+            "url_conteudo": "https://www.codewars.com"
+        },
+        {
+            "id": 5,
+            "titulo": "Setup de Desenvolvimento",
+            "descricao": "Guia de como configurar o computador para o desenvolvimento de software.",
+            "url_imagem": "https://i3.ytimg.com/vi/WrJVlIrutow/maxresdefault.jpg",
+            "url_conteudo": "https://dev.to/stephanlamoureux/the-complete-windows-developer-setup-guide-fie"
+        }
+    ],
+    "colegas": [
+        {
+            "id": 1,
+            "nome": "Matheus Felipe",
+            "url_foto": "./assets/img/colega2.png",
+            "url_github": "https://github.com/matheusfelipe"
+        },
+        {
+            "id": 2,
+            "nome": "João Costa",
+            "url_foto": "./assets/img/colega1.png",
+            "url_github": "https://github.com/joaocosta"
+        },
+        {
+            "id": 3,
+            "nome": "Carlos Eduardo",
+            "url_foto": "./assets/img/colega3.png",
+            "url_github": "https://github.com/carloseduardo"
+        }
+    ],
+    "footer": {
+        "social_links": [
+            {
+                "platform": "Instagram",
+                "url": "https://www.instagram.com/bbernardo.rocha/",
+                "icon_class": "bi bi-instagram"
+            },
+            {
+                "platform": "Twitter",
+                "url": "https://twitter.com/rocha_bbernardo",
+                "icon_class": "bi bi-twitter-x"
+            },
+            {
+                "platform": "GitHub",
+                "url": "https://github.com/bernardovieirarocha",
+                "icon_class": "bi bi-github"
+            }
+        ],
+        "copyright": {
+            "text": "© 2024 Bernardo Rocha",
+            "url": "https://bernardorocha.com/"
+        }
+    }
+}
